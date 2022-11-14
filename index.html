@@ -13,7 +13,37 @@
             background: #fff;
         }
         
-        h1, h2 {
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "aside main"
+                "footer footer";
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 42.24px 1fr 42.24px;
+            grid-row-gap: 31.13px;
+            grid-column-gap: 31.13px;
+        }
+        
+        header {
+            grid-area: header;
+        }
+        
+        aside {
+            grid-area: aside;
+        }
+        
+        main {
+            grid-area: main;
+        }
+        
+        footer {
+            grid-area: footer;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
             font-family: Monospace;
         }
         
@@ -68,6 +98,11 @@
         </div>
     </header>
 
+    <aside>
+        <h2>london-based scientific software business</h2>
+        <p style="font-family: Monospace; font-size: 8px;">a london-based scientific software business</p>
+    </aside>
+
     <main>
     <h1>create the best software for research</h1>
     
@@ -75,6 +110,18 @@
     
     </main>
     
-    <footer>COPYRIGHT (C) 2022 // RHIZOMATIC.SCIENCE</footer>
+    <footer style="display: flex; flex-direction: row;">
+        <div>
+            <p style="font-family: Monospace; font-size: 8px; color: gray">
+                COPYRIGHT (C) 2022 // RHIZOMATIC.SCIENCE
+            </p>
+        </div>
+        <div>
+            <ul style="display: flex; flex-direction: row; font-family: Monospace; font-size: 8px; color: gray; list-style-type: none;">
+                <li><a href="#" style="padding-left: 42.24px;">COOKIES</a></li>
+                <li><a href="#" style="padding-left: 42.24px;">CONTACT</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

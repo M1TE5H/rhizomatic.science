@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     
     <meta charset="utf-8">
     
-    <title>rhizomatic.science</title>
+    <title>software for science | rhizomatic.science - scientific networks</title>
     
     <style type="text/css">
         html, body {
@@ -18,10 +18,10 @@
             height: 100vh;
             display: grid;
             grid-template-areas:
-                "header header"
-                "aside main"
-                "footer footer";
-            grid-template-columns: 1fr 3fr;
+                "header header header"
+                "aside-west main aside-east"
+                "footer footer footer";
+            grid-template-columns: 1fr 6fr 1fr;
             grid-template-rows: 42.24px 1fr 42.24px;
             grid-row-gap: 31.13px;
             grid-column-gap: 31.13px;
@@ -31,8 +31,12 @@
             grid-area: header;
         }
         
-        aside {
-            grid-area: aside;
+        #aside-west {
+            grid-area: aside-west;
+        }
+        
+        #aside-east {
+            grid-area: aside-east;
         }
         
         main {
@@ -48,7 +52,7 @@
         }
         
         p {
-            font-family: Sans-Serif;
+            font-family: Monospace;
         }
         
         header {
@@ -98,15 +102,35 @@
         </div>
     </header>
 
-    <aside>
-        <h2>london-based scientific software business</h2>
-        <p style="font-family: Monospace; font-size: 8px;">a london-based scientific software business</p>
+    <aside id="aside-west">
+        <h2>about</h2>
+        <p style="font-family: Monospace; font-size: 8px;">london-based scientific software business with a focus on solutions for healthcare</p>
     </aside>
+    
+    
+    <aside id="aside-east">
+        <h2>calendar</h2>
+    </aside>
+    
 
     <main>
     <h1>create the best software for research</h1>
     
     <p style="font-family: Monospace;">website under construction <span style="color: gray;">// bear with us</span></p>
+    
+    <br>
+    
+    <div style="display: flex; flex-direction: column;">
+        <article>
+            <h3>solid c++ for scientific research software</h3>
+            <p>how to use the famous five for reusable and extendable code</p>
+        </article>
+        
+        <article>
+            <h3>test-driven methods for scientific research software</h3>
+            <p>how to write tests firsts in order to ensure correct science</p>
+        </article>
+    </div>
     
     </main>
     

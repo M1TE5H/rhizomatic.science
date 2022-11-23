@@ -38,4 +38,76 @@ namespace internal {
 
 // ----------------------------------------------------------------
 
+/**
+ *
+ * GNUPLOT
+ *
+ * Custom Pipe for Plot Generation
+ *
+ */
+
+namespace rhizomatic {
+
+namespace gnuplot {
+
+} // namespace gnuplot
+  
+} // namespace rhizomatic
+
+// ----------------------------------------------------------------
+
+/**
+ *
+ * TIKZ
+ *
+ * Commands for the TikZ Environment
+ *
+ */
+
+namespace rhizomatic {
+
+namespace tikz {
+
+} // namespace tikz
+  
+} // namespace rhizomatic
+
+// ----------------------------------------------------------------
+
+/**
+ *
+ * XELATEX
+ *
+ * Boiler for the XeLaTeX Source File
+ *
+ */
+
+namespace rhizomatic {
+
+namespace xelatex {
+
+} // namespace xelatex
+  
+} // namespace rhizomatic
+
+// ----------------------------------------------------------------
+
+/**
+ *
+ * PIXEL
+ *
+ * Basic Tools for Pixel Art Creation
+ *
+ */
+
+namespace rhizomatic {
+
+namespace pixel {
+
+} // namespace pixel
+  
+} // namespace rhizomatic
+
+// ----------------------------------------------------------------
+
 #endif // __RHIZOMATIC_HPP__

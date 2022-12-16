@@ -1,10 +1,15 @@
 ---
 "link": "www.rhizomatic.science"
+"draft": "true"
 ---
 
 # rhizomatic.science
 
 **Brief:** A website that focuses on scientific ideas that cross the traditional boundaries.
+
+---
+
+**WORK-IN-PROGRESS NOTICE**
 
 ---
 
